@@ -10,7 +10,7 @@ class Database {
         port: 3306,
         user: "root",
         password: "",
-        database: "to_do",
+        database: "todo",
       });
 
       await this.createTables();
