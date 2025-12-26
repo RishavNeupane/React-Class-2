@@ -1,6 +1,6 @@
 import { ResultSetHeader, RowDataPacket } from 'mysql2';
 import {db} from '../config/database';
-import { Todo } from '../model/to.model';
+import { Todo } from '../model/Todo.model';
 
 
 class TodoRepository   {

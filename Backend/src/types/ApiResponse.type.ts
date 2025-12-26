@@ -4,3 +4,5 @@ interface ApiResponse <T = any >{
     message?: string;
     error?:any;
 }
+
+export type { ApiResponse };
