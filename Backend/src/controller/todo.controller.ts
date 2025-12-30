@@ -3,7 +3,10 @@ import { Todo } from "../model/Todo.model";
 import { todoService } from "../service/Todo.service";
 import { ApiResponse } from "../types/ApiResponse.type";
 
-class TodoController {
+export class TodoController {
+  static createTodo(arg0: string, createTodo: any) {
+      throw new Error("Method not implemented.");
+  }
   createTodo = async (req: Request, res: Response): Promise<void> => {
     try {
       const todo: Todo = {
